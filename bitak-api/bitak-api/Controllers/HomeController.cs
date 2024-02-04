@@ -13,7 +13,6 @@ namespace bitak_api.Controllers
     public class User : ControllerBase
     {
         [HttpPost]
-
         public string CreateUser(string email, string username, string password, string pictureURL, string location)
         {
             string connection = "SERVER = localhost; database = bitakdb; uid = root; password= 1234;";
